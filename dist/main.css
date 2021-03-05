@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +12,12 @@ body {
   background-image: linear-gradient(90deg, lightblue, wheat);
 }
 
+h1 {
+  color: white;
+  font-family: "Kaushan Script", cursive;
+  font-size: 7vh;
+}
+
 input {
   width: 25vw;
   font-size: 3vh;
@@ -20,6 +28,7 @@ input {
   color: white;
   margin: 3vh;
   transition: 0.3s;
+  font-family: "Kaushan Script", cursive;
 }
 
 input:hover,
@@ -39,9 +48,9 @@ button {
   background-color: wheat;
   cursor: pointer;
   transition: 0.5s all;
+  font-family: "Kaushan Script", cursive;
 }
 
 button:hover {
-  box-shadow: 3px 3px 15px 5px lightblue;
   transform: scale(1.1);
 }
