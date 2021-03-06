@@ -3,8 +3,8 @@ class Card {
     $(document.body).append(
       `<div class = "card-wrapper">
                <div class = "image" style = "background: url('./images/bg${Math.floor(
-                 Math.random() * 3
-               )}.jpg');"></div>
+                 Math.random() * 4
+               )}.jpg'); background-position: 0% 0%;"></div>
                <section>
                  <h2>Weather in ${data.name}</h2>
                  <p>t: ${Math.trunc(data.main.temp - 273)}</p>
